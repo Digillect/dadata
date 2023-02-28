@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digillect.DaData", "src\Digillect.DaData\Digillect.DaData.csproj", "{365D7B50-4435-437B-B4D9-0A91A8278B52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digillect.DaData.Tests", "test\Digillect.DaData.Tests\Digillect.DaData.Tests.csproj", "{D587EA17-1A6F-418D-A244-BEE67BF0107B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution items", "{FE269AEF-0D3E-4156-9174-EDBD3031347D}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		Directory.Build.Props = Directory.Build.Props
+		.github\workflows\ci.yml = .github\workflows\ci.yml
+		GitVersion.yml = GitVersion.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{365D7B50-4435-437B-B4D9-0A91A8278B52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{365D7B50-4435-437B-B4D9-0A91A8278B52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{365D7B50-4435-437B-B4D9-0A91A8278B52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{365D7B50-4435-437B-B4D9-0A91A8278B52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D587EA17-1A6F-418D-A244-BEE67BF0107B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D587EA17-1A6F-418D-A244-BEE67BF0107B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D587EA17-1A6F-418D-A244-BEE67BF0107B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D587EA17-1A6F-418D-A244-BEE67BF0107B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
