@@ -13,5 +13,15 @@ public enum BeltwayHit
 	/// <summary>
 	/// За МКАД.
 	/// </summary>
-	OutMkad
+	OutMkad,
+
+	/// <summary>
+	/// Внутри КАД (Санкт-Петербург).
+	/// </summary>
+	InKad,
+
+	/// <summary>
+	/// За КАД (Санкт-Петербург).
+	/// </summary>
+	OutKad
 }
