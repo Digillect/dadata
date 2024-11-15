@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
-  
+
   <PropertyGroup>
     <Title>Digillect.DaData</Title>
     <Summary>DaData.ru data provider client</Summary>
@@ -20,12 +20,12 @@
   <ItemGroup>
     <None Include="../../README.md" Pack="true" PackagePath="/" />
   </ItemGroup>
-  
+
   <PropertyGroup>
     <NoWarn>$(NoWarn);8618</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Refit.HttpClientFactory" Version="6.3.2" />
+    <PackageReference Include="Refit.HttpClientFactory" Version="8.0.0" />
   </ItemGroup>
 </Project>

@@ -3,7 +3,6 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace Digillect.DaData.Tests;
 
-[UsesVerify]
 public class SerializationTests
 {
 	[Fact]
